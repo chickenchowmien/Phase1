@@ -10,6 +10,7 @@
 			<class name="com.statista.tests.search.SearchTest"></class>
 			<class name="com.statista.tests.registration.LoginTest"></class>
 			<class name="com.statista.tests.search.ContactusTest"></class>
+			
 		</classes>
 	</test>
 </suite>

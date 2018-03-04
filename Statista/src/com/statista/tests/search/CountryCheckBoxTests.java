@@ -37,7 +37,7 @@ public class CountryCheckBoxTests {
 
 	@AfterClass(alwaysRun = true)
 	public void shutDown() {
-		driver.quit();
+		//driver.quit();
 	}
 
 	@Test(groups = "smoke")

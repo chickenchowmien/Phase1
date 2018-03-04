@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTestDemo" verbose="2">
+	<test name="smokeTests">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+		<classes>
+			<class name="com.statista.tests.search.SearchTest"></class>
+			<class name="com.statista.tests.registration.LoginTest"></class>
+			<class name="com.statista.tests.search.ContactusTest"></class>
+		</classes>
+	</test>
+</suite>

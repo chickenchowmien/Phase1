@@ -1,58 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SmokeTestDemo" duration-ms="40420" started-at="2018-03-04T18:13:54Z" finished-at="2018-03-04T18:14:35Z">
+  <suite name="Default suite" duration-ms="18280" started-at="2018-03-06T02:53:39Z" finished-at="2018-03-06T02:53:58Z">
     <groups>
       <group name="smoke">
-        <method signature="ContactusTest.contactusTest()[pri:0, instance:com.statista.tests.search.ContactusTest@4b9e13df]" name="contactusTest" class="com.statista.tests.search.ContactusTest"/>
-        <method signature="LoginTest.positiveLoginTest()[pri:0, instance:com.statista.tests.registration.LoginTest@cb5822]" name="positiveLoginTest" class="com.statista.tests.registration.LoginTest"/>
-        <method signature="SearchTest.searchTest()[pri:0, instance:com.statista.tests.search.SearchTest@18be83e4]" name="searchTest" class="com.statista.tests.search.SearchTest"/>
+        <method signature="CountryCheckBoxTests.positiveTestForNorthAmericaRegionSelectBox()[pri:0, instance:com.statista.tests.search.CountryCheckBoxTests@c038203]" name="positiveTestForNorthAmericaRegionSelectBox" class="com.statista.tests.search.CountryCheckBoxTests"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="smokeTests" duration-ms="40420" started-at="2018-03-04T18:13:54Z" finished-at="2018-03-04T18:14:35Z">
-      <class name="com.statista.tests.registration.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.statista.tests.registration.LoginTest@cb5822]" name="setUp" is-config="true" duration-ms="8273" started-at="2018-03-04T13:14:08Z" finished-at="2018-03-04T13:14:17Z">
+    <test name="Default test" duration-ms="18280" started-at="2018-03-06T02:53:39Z" finished-at="2018-03-06T02:53:58Z">
+      <class name="com.statista.tests.search.CountryCheckBoxTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.statista.tests.search.CountryCheckBoxTests@c038203]" name="setUp" is-config="true" duration-ms="9681" started-at="2018-03-05T21:53:39Z" finished-at="2018-03-05T21:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.statista.tests.registration.LoginTest@cb5822]" name="positiveLoginTest" duration-ms="6293" started-at="2018-03-04T13:14:17Z" finished-at="2018-03-04T13:14:23Z">
+        <test-method status="PASS" signature="positiveTestForNorthAmericaRegionSelectBox()[pri:0, instance:com.statista.tests.search.CountryCheckBoxTests@c038203]" name="positiveTestForNorthAmericaRegionSelectBox" duration-ms="8566" started-at="2018-03-05T21:53:49Z" finished-at="2018-03-05T21:53:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- positiveLoginTest -->
-        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.statista.tests.registration.LoginTest@cb5822]" name="shutDown" is-config="true" duration-ms="972" started-at="2018-03-04T13:14:23Z" finished-at="2018-03-04T13:14:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutDown -->
-      </class> <!-- com.statista.tests.registration.LoginTest -->
-      <class name="com.statista.tests.search.ContactusTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.statista.tests.search.ContactusTest@4b9e13df]" name="setUp" is-config="true" duration-ms="8395" started-at="2018-03-04T13:14:24Z" finished-at="2018-03-04T13:14:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="contactusTest()[pri:0, instance:com.statista.tests.search.ContactusTest@4b9e13df]" name="contactusTest" duration-ms="1536" started-at="2018-03-04T13:14:32Z" finished-at="2018-03-04T13:14:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactusTest -->
-        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.statista.tests.search.ContactusTest@4b9e13df]" name="shutDown" is-config="true" duration-ms="1005" started-at="2018-03-04T13:14:34Z" finished-at="2018-03-04T13:14:35Z">
+        </test-method> <!-- positiveTestForNorthAmericaRegionSelectBox -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.statista.tests.search.CountryCheckBoxTests@c038203]" name="shutDown" is-config="true" duration-ms="1" started-at="2018-03-05T21:53:58Z" finished-at="2018-03-05T21:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-      </class> <!-- com.statista.tests.search.ContactusTest -->
-      <class name="com.statista.tests.search.SearchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.statista.tests.search.SearchTest@18be83e4]" name="setUp" is-config="true" duration-ms="9482" started-at="2018-03-04T13:13:54Z" finished-at="2018-03-04T13:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:com.statista.tests.search.SearchTest@18be83e4]" name="searchTest" duration-ms="3429" started-at="2018-03-04T13:14:04Z" finished-at="2018-03-04T13:14:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.statista.tests.search.SearchTest@18be83e4]" name="shutDown" is-config="true" duration-ms="984" started-at="2018-03-04T13:14:07Z" finished-at="2018-03-04T13:14:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutDown -->
-      </class> <!-- com.statista.tests.search.SearchTest -->
-    </test> <!-- smokeTests -->
-  </suite> <!-- SmokeTestDemo -->
+      </class> <!-- com.statista.tests.search.CountryCheckBoxTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

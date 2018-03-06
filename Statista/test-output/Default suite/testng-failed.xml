@@ -6,8 +6,8 @@
       <class name="com.statista.tests.search.CountryCheckBoxTests">
         <methods>
           <include name="setUp"/>
+          <include name="positiveTestForNorthAmericaRegionSelectBox"/>
           <include name="shutDown"/>
-          <include name="checkBoxCountryTest"/>
         </methods>
       </class> <!-- com.statista.tests.search.CountryCheckBoxTests -->
     </classes>

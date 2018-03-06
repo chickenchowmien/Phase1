@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -84,6 +85,7 @@ public class SearchResultsPage extends TopMenuPage{
 	public void selectBoxRegions(String s) {
 		Select select = new Select(selectBoxRegions);
 		select.selectByVisibleText(s);
+		
 	}
 	//country search and select section
 	@FindBy(xpath="//input[@id='isocountrySearch']")
